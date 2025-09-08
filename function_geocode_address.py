@@ -7,9 +7,9 @@ def get_location_info_addr(address, email = 'mihjn@bk.ru'):
         "q": address,
         "format": "json",
         "limit": 1,
-        }
+    }
 
-    headers = {f'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) \
+    headers = {'User-Agent':f'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) \
             Chrome/138.0.0.0 Safari/537.36 ({email})'
     }
     response = requests.get(BASE_URL_NOMINATIM, params=params, headers=headers)

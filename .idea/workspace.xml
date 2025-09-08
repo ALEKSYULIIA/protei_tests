@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="bb">
+    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function_geocode_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_geocode_address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_geocode_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_geocode_coord.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.function_geocode_address">
+  <component name="RunManager" selected="Python tests.Python tests in test_geocode_addr.py">
     <configuration name="function_geocode_address" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.function_geocode_address" />
-        <item itemvalue="Python tests.Python tests for test_geocode_addr.test_get_location_info_addr" />
+        <item itemvalue="Python tests.Python tests in test_geocode_addr.py" />
         <item itemvalue="Python tests.Python tests in test_geocode_coord.py" />
         <item itemvalue="Python.function_geocode_coord" />
-        <item itemvalue="Python tests.Python tests in test_geocode_addr.py" />
+        <item itemvalue="Python.function_geocode_address" />
+        <item itemvalue="Python tests.Python tests for test_geocode_addr.test_get_location_info_addr" />
       </list>
     </recent_temporary>
   </component>
@@ -177,11 +178,20 @@
       <option name="project" value="LOCAL" />
       <updated>1757075070708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <option name="closed" value="true" />
+      <created>1757314203825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757314203825</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bb" />
-    <option name="LAST_COMMIT_MESSAGE" value="bb" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
