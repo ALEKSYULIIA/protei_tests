@@ -1,11 +1,17 @@
-# Импортируем библиотеку requests для выполнения HTTP-запросов
 import requests
 
-# Задаём базовый URL для API Nominatim
 BASE_URL_NOMINATIM = "https://nominatim.openstreetmap.org/reverse"
 
-# Определяем функцию для получения информации о местоположении по координатам
 def get_location_info_coord(lat, lon, email = 'mihjn@bk.ru'):
+    #  query parameters to get location information at coordinates
+    #               Parameters:
+    #                           format: response format (json),
+    #                           lat: latitude,
+    #                           lon: longitude,
+    #                           zoom: level of detail required for the address,
+    #                           layer:layer contains all places that make up an address: \
+    #                           address points with house numbers, streets, inhabited places \
+    #                           (suburbs, villages, cities, states etc.) and administrative boundaries
     coord_params = {
             "format": "json",
             "lat": lat,
@@ -14,21 +20,17 @@ def get_location_info_coord(lat, lon, email = 'mihjn@bk.ru'):
             "layer": "address"
     }
 
-#  Задаём заголовок User-Agent с указанием email для идентификации
+#  User-Agent header with email for identification
     headers = {'User-Agent':f'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) \
             Chrome/138.0.0.0 Safari/537.36 ({email})'
     }
 
-# Отправляем GET-запрос к API
     response = requests.get(BASE_URL_NOMINATIM, params=coord_params, headers=headers)
-
-# Проверяем, что запрос выполнен успешно
     if response.status_code != 200:
         print(f"Error code: {response.status_code}")
         print(f"Error reason: {response.reason}")
-        return {}
+        return None
 
-# Преобразуем ответ из JSON в Python-объект
     data = response.json()
     if data:
             return {
@@ -40,6 +42,5 @@ def get_location_info_coord(lat, lon, email = 'mihjn@bk.ru'):
             print("Data not found")
             return None
 
-# Вызываем функцию и выводим результат
 result = get_location_info_coord(60.0007332, 30.3092082)
 print(result)
