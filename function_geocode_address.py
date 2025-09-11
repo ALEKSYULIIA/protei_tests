@@ -3,18 +3,21 @@ import requests
 BASE_URL_NOMINATIM = "https://nominatim.openstreetmap.org/search"
 
 def get_location_info_addr(address, email = 'mihjn@bk.ru'):
-    #  query parameters to get location information at address
-                #Parameters:
-                            #q: free-form query string to search for address
-                            #format: response format (json)
-                            #limit: limit the number of results (default 1)
+    """
+            query parameters to get location information at address
+                Parameters:
+                    q: free-form query string to search for address
+                    format: response format (json)
+                    limit: limit the number of results (default 1)
+                Return:
+    """
     params = {
         "q": address,
         "format": "json",
         "limit": 1,
     }
 
-#  User-Agent header with email for identification
+# email is needed to avoid 403 response from API server
     headers = {'User-Agent':f'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) \
             Chrome/138.0.0.0 Safari/537.36 ({email})'
     }
@@ -27,7 +30,7 @@ def get_location_info_addr(address, email = 'mihjn@bk.ru'):
         return None
 
     data = response.json()
-# when receiving exactly one answer
+# server can respond with not only one address, it’s bad
     if len(data) == 1:
         first_result = data[0]
         return {
