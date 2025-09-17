@@ -1,3 +1,5 @@
+from typing import AnyStr
+
 import requests
 
 BASE_URL_NOMINATIM = "https://nominatim.openstreetmap.org/search"
