@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="changes">
+    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="combine two files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compare_addr_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_addr_coord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_geocode_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_geocode_address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_geocode_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_geocode_coord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_function_addr_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_function_addr_coord.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,12 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1757327739459</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="combine two files">
+      <option name="closed" value="true" />
+      <created>1759137125886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759137125886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bb" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="combine two files" />
+    <option name="LAST_COMMIT_MESSAGE" value="combine two files" />
   </component>
 </project>

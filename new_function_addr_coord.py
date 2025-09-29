@@ -23,20 +23,26 @@ class Nominatim:
         if response.status_code != 200:
             print(f"Error code: {response.status_code}")
             print(f"Error reason: {response.reason}")
-            return None
-
-        data = response.json()
-        if len(data) == 1:
-            first_result = data[0]
-            return {
-             "address": first_result.get("display_name"),
-             "lat": first_result.get("lat"),
-             "lon": first_result.get("lon"),
-            }
+            return {"error": f"HTTP error {response.status_code}: {response.reason}"}
         else:
-            print("More than one results")
-            return None
-
+            data = response.json()
+            if len(data) == 1:
+                first_result = data[0]
+                return {
+                    "address": first_result.get("display_name"),
+                    "lat": first_result.get("lat"),
+                    "lon": first_result.get("lon"),
+                }
+            elif len(data) > 1:
+                print("More than one results")
+                first_result = data[0]
+                return {
+                "address": first_result.get("display_name"),
+                "lat": first_result.get("lat"),
+                "lon": first_result.get("lon"),
+                }
+            else:
+                return {"error": "No data found for given address"}
 
     def get_location_info_coord(self, lat: float, lon: float):
         params = {
@@ -47,19 +53,18 @@ class Nominatim:
             "layer": "address"
         }
         response = requests.get(self.BASE_URL_REVERSE, params=params, headers=self.headers)
-
         if response.status_code != 200:
             print(f"Error code: {response.status_code}")
             print(f"Error reason: {response.reason}")
-            return None
-
-        data = response.json()
-        if data:
-            return {
-                "lat": data.get("lat"),
-                "lon": data.get("lon"),
-                "display_name": data.get("display_name")
-            }
+            return{"error": f"HTTP error {response.status_code}: {response.reason}"}
         else:
-            print("Data not found")
-            return None
+            data = response.json()
+            if data:
+                return {
+                    "lat": data.get("lat"),
+                    "lon": data.get("lon"),
+                    "display_name": data.get("display_name")
+                }
+            else:
+                print("Data not found")
+                return {"error": "No data found for given coordinates"}
