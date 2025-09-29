@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="comments">
+    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare_addr_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_addr_coord.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function_geocode_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_geocode_address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_geocode_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_geocode_coord.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests in test_geocode_addr.py">
+  <component name="RunManager" selected="Python.compare_addr_coord">
     <configuration name="compare_addr_coord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
@@ -154,10 +156,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_geocode_addr.py" />
         <item itemvalue="Python.compare_addr_coord" />
-        <item itemvalue="Python.function_geocode_coord" />
         <item itemvalue="Python.function_geocode_address" />
+        <item itemvalue="Python.function_geocode_coord" />
+        <item itemvalue="Python tests.Python tests in test_geocode_addr.py" />
         <item itemvalue="Python tests.Python tests in test_geocode_coord.py" />
       </list>
     </recent_temporary>
@@ -209,29 +211,12 @@
       <option name="project" value="LOCAL" />
       <updated>1757327739459</updated>
     </task>
-    <task id="LOCAL-00005" summary="changes">
-      <option name="closed" value="true" />
-      <created>1757506363984</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1757506363984</updated>
-    </task>
-    <task id="LOCAL-00006" summary="comments">
-      <option name="closed" value="true" />
-      <created>1757598485159</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1757598485159</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bb" />
     <MESSAGE value="changes" />
-    <MESSAGE value="comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
