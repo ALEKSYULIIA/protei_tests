@@ -44,7 +44,7 @@ class Nominatim:
             else:
                 return {"error": "No data found for given address"}
 
-    def get_location_info_coord(self, lat: float, lon: float):
+    def get_location_info_coord(self, lat, lon):
         params = {
             "format": "json",
             "lat": lat,

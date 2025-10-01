@@ -7,24 +7,25 @@ def geo():
 
 # Позитивные проверки адреса: ожидаем, что найдется Россия/Russia, Санкт-Петербург/Saint-Petersburg
 VALID_ADDRESS = [
-'Россия, Санкт-Петербург, Ипподромный переулок, 1 к1',
-'Russia, Санкт-Петербург, Ипподромный переулок, 1 к1',
-'Russia, Saint-Petersburg, Ippodromniy street, 1b1',
-'Россия, Saint-Petersburg, Ippodromniy street, 1b1',
+['Россия, Санкт-Петербург, Ипподромный переулок, 1 к1'],
+['Russia, Санкт-Петербург, Ипподромный переулок, 1 к1'],
+['Russia, Saint-Petersburg, Ippodromny lane, 1b1'],
+['Россия, Saint-Petersburg, Ippodromny lane, 1b1'],
 ]
 
 # Негативные проверки адреса
 INVALID_ADDRESS = [
-'Ипподромный переулок, 1 к1',
-'1 к1',
-'12345',
-'Россия, Санкт-Петербург, @#$%',
-' ',
-'',
+['Ипподромный переулок, 1 к1'],
+['1 к1'],
+['12345'],
+['Россия, Санкт-Петербург, @#$%'],
+[' '],
+[''],
 ]
 
 @pytest.mark.parametrize("address", VALID_ADDRESS)
 def test_get_location_info_valid_addr(address, geo):
+    address = address[0]
     result = geo.get_location_info_addr(address)
     assert result is not None, "Результат не должен быть None"
     assert isinstance(result, dict), "Результат должен быть словарём"
@@ -40,23 +41,25 @@ def test_get_location_info_valid_addr(address, geo):
 
 @pytest.mark.parametrize("address", INVALID_ADDRESS)
 def test_get_location_info_invalid_addr(address, geo):
+    address = address[0]
     result = geo.get_location_info_addr(address)
-    if result is not None:
-        assert isinstance(result["addressall"], str), "Адрес должен быть строкой"
-        assert isinstance(result, dict), "Результат должен быть словарём"
-
+    assert isinstance(result, dict), "Результат должен быть словарём"
+    if "address" in result:
+        assert isinstance(result["address"], str), "Адрес должен быть строкой"
+    else:
+        assert "error" in result
 
 
 SPB_COORDINATES = [
 # Позитивные проверки адреса по координатам: ожидаем, что найдется Санкт-Петербург
 (60.0007332, 30.3092082),
 (60., 30.),
-(60.0007332000, 30.3092082000),
+("60.0007332000", "30.3092082000"),
 ]
 
 NO_SPB_COORDINATES = [
 # Негативные проверки адреса по координатам
-(.0007332, .3092082),
+(".0007332", ".3092082"),
 (600.0, 300.0),
 (-100.0, 200.0),
 (0.0007332, 0.3092082),
@@ -74,10 +77,10 @@ def test_get_location_info_valid_coord(lat, lon, geo):
 @pytest.mark.parametrize("lat, lon", NO_SPB_COORDINATES)
 def test_get_location_info_invalid_coord(lat, lon, geo):
     result = geo.get_location_info_coord(lat, lon)
-    if result is not None:
-        assert isinstance(result, dict), "Результат должен быть словарём"
-        assert isinstance(result.get("display_name", ""), str), "Адрес должен быть строкой"
-
-
+    assert isinstance(result, dict), "Результат должен быть словарём"
+    if "display_name" in result:
+         assert isinstance(result.get("display_name", ""), str), "Адрес должен быть строкой"
+    else:
+        assert "error" in result
 
 
