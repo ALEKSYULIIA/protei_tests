@@ -2,13 +2,9 @@ import logging
 import pytest
 from new_function_addr_coord import Nominatim
 import allure
-from allure_commons.logger import AllureHandler
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
-
-allure_handler = AllureHandler()
-allure_handler.setLevel(logging.DEBUG)
 
 @pytest.fixture(scope="module")
 def geo():
@@ -40,7 +36,7 @@ INVALID_CASES = [
     pytest.param("coord", (-100.0, 200.0), id="invalid_coord_3"),
     pytest.param("coord", (0.0007332, 0.3092082), id="invalid_coord_4"),
 ]
-
+@allure.feature('Обработка валидных адреса и координат')
 @pytest.mark.parametrize("input_type, value", VALID_CASES)
 def test_valid_addr_coord(input_type, value, geo):
         if input_type == "addr":
@@ -58,7 +54,7 @@ def test_valid_addr_coord(input_type, value, geo):
                 with allure.step("Проверка наличия в результате ключей 'lat' и 'lon'"):
                     assert "lat" in result and "lon" in result, "В результате должны быть ключи 'lat' и 'lon'"
                 with allure.step("Проверка наличия адреса в результате (адрес не должен быть пустой строкой)"):
-                        assert result["address"].strip() != "", "Адрес не должен быть пустым"
+                    assert result["address"].strip() != "", "Адрес не должен быть пустым"
                 with allure.step("Проверка типа данных адреса в результате (должен быть строкой)"):
                     assert isinstance(result["address"], str), "Адрес должен быть строкой"
                 with allure.step("Проверка наличия в адресе 'Россия' или 'Russia'"):
@@ -76,7 +72,7 @@ def test_valid_addr_coord(input_type, value, geo):
             logger.info(f"Обработка валидных координат: {lat}, {lon}")
             with allure.step(f"Обработка валидных координат: {lat}, {lon}"):
                 result = geo.get_location_info_coord(lat, lon)
-                logger.debug(f"Получен результат: {lat}, {lon}")
+                logger.debug(f"Получен результат: {result}")
                 with allure.step("Проверка наличия результата (не None)"):
                     assert result is not None, "Результат не должен быть None"
                 with allure.step("Проверка наличия адреса в результате (не None)"):
@@ -84,6 +80,7 @@ def test_valid_addr_coord(input_type, value, geo):
                 with allure.step("Проверка наличия адреса в результате (адрес не должен быть пустой строкой)"):
                     assert result["display_name"].strip() != "", "Адрес не должен быть пустой строкой"
 
+@allure.feature('Обработка невалидных адреса и координат')
 @pytest.mark.parametrize("input_type, value", INVALID_CASES)
 def test_invalid_addr_coord(input_type, value, geo):
     if input_type == "addr":
@@ -102,7 +99,7 @@ def test_invalid_addr_coord(input_type, value, geo):
         logger.info(f"Обработка невалидных координат: {lat}, {lon}")
         with allure.step(f"Обработка невалидных координат: {lat}, {lon}"):
             result = geo.get_location_info_coord(lat, lon)
-            logger.debug(f"Получен результат: {lat}, {lon}")
+            logger.debug(f"Получен результат: {result}")
             with allure.step("Проверка отсутствия результата (None) или при наличии результата проверка его типа данных (результат должен быть словарём)"):
                 assert result is None or isinstance(result, dict), "Результат должен быть None или словарём"
             if result is not None:
