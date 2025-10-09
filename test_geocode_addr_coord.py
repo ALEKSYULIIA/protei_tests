@@ -89,10 +89,10 @@ def test_invalid_addr_coord(input_type, value, geo):
         with allure.step(f"Обработка невалидного адреса: {address}"):
             result = geo.get_location_info_addr(address)
             logger.debug(f"Получен результат: {result}")
-            with allure.step("Проверка отсутствия результата (None) или при наличии результата проверка его типа данных (результат должен быть словарём)"):
+            with allure.step("Проверка, что результат отсутствует (None) или представлен в виде словаря"):
                 assert result is None or isinstance(result, dict), "Результат должен быть словарём или None"
             if result is not None:
-                with allure.step("Проверка отсутствия адреса (None) в результате или при наличии адреса проверка его типа данных (адрес должен быть строкой)"):
+                with allure.step("Проверка, что результат отсутствует (None) или представлен в виде строки"):
                     assert result.get("address") is None or isinstance(result.get("address"), str), "Адрес должен быть строкой или None"
     elif input_type == "coord":
         lat, lon = value
@@ -100,10 +100,9 @@ def test_invalid_addr_coord(input_type, value, geo):
         with allure.step(f"Обработка невалидных координат: {lat}, {lon}"):
             result = geo.get_location_info_coord(lat, lon)
             logger.debug(f"Получен результат: {result}")
-            with allure.step("Проверка отсутствия результата (None) или при наличии результата проверка его типа данных (результат должен быть словарём)"):
+            with allure.step("Проверка, что результат отсутствует (None) или представлен в виде словаря"):
                 assert result is None or isinstance(result, dict), "Результат должен быть None или словарём"
             if result is not None:
                 display_name = result.get("display_name")
-                with allure.step("Проверка отсутствия адреса (None) в результате или при наличии адреса проверка его типа данных (адрес должен быть строкой)"):
+                with allure.step("Проверка, что результат отсутствует (None) или представлен в виде строки"):
                     assert display_name is None or isinstance(display_name, str), "Адрес должен быть строкой или None"
-

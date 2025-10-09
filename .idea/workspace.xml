@@ -285,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759482855776</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="steps+logs+test's names">
+      <option name="closed" value="true" />
+      <created>1759834639664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1759834639664</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
