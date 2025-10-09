@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="steps+logs+test's names">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_geocode_addr_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_geocode_addr_coord.py" afterDir="false" />
-    </list>
+    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="checking results" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759834639664</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="checking results">
+      <option name="closed" value="true" />
+      <created>1760002416329</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760002416329</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,6 +308,7 @@
     <MESSAGE value="coord+address" />
     <MESSAGE value="test+coord+address" />
     <MESSAGE value="steps+logs+test's names" />
-    <option name="LAST_COMMIT_MESSAGE" value="steps+logs+test's names" />
+    <MESSAGE value="checking results" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking results" />
   </component>
 </project>
