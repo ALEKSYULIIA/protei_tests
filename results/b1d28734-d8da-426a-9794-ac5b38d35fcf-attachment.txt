@@ -1,0 +1,2 @@
+[32mINFO    [0m test_geocode_addr_coord:test_geocode_addr_coord.py:67 Обработка невалидного адреса: 12345
+[35mDEBUG   [0m test_geocode_addr_coord:test_geocode_addr_coord.py:70 Получен результат: {'address': '12345, Town of Berlin, Rensselaer County, New York, United States', 'lat': '42.7094446', 'lon': '-73.3946522'}

@@ -1,0 +1,2 @@
+[32mINFO    [0m test_geocode_addr_coord:test_geocode_addr_coord.py:21 Обработка валидного адреса: Russia, Saint-Petersburg
+[35mDEBUG   [0m test_geocode_addr_coord:test_geocode_addr_coord.py:24 Получен результат: {'address': 'Санкт-Петербург, Северо-Западный федеральный округ, Россия', 'lat': '59.9606739', 'lon': '30.1586551'}
