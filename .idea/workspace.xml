@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="checking results" />
+    <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="checking results">
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_function_addr_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_geocode_addr_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_geocode_addr_coord.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,32 +34,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_geocode_addr.test_get_location_info_addr.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_geocode.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_geocode_addr.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_geocode_coord.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_geocode_addr_coord.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2222.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_Protei.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_learning.executor&quot;: &quot;Run&quot;,
-    &quot;Python.compare_addr_coord.executor&quot;: &quot;Run&quot;,
-    &quot;Python.function_geocode_address.executor&quot;: &quot;Run&quot;,
-    &quot;Python.function_geocode_coord.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lessons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.my_proj.executor&quot;: &quot;Run&quot;,
-    &quot;Python.new_function_addr_coord.executor&quot;: &quot;Run&quot;,
-    &quot;Python.weather.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_geocode_addr.test_get_location_info_addr.executor": "Run",
+    "Python tests.Python tests in test_geocode.py.executor": "Run",
+    "Python tests.Python tests in test_geocode_addr.py.executor": "Run",
+    "Python tests.Python tests in test_geocode_coord.py.executor": "Run",
+    "Python tests.pytest in /home/alekseeva-j/PycharmProjects/test_geocode_addr_coord.py.executor": "Run",
+    "Python tests.pytest in test_geocode_addr_coord.py.executor": "Run",
+    "Python.1.executor": "Run",
+    "Python.2222.executor": "Run",
+    "Python.API_Protei.executor": "Run",
+    "Python.API_learning.executor": "Run",
+    "Python.compare_addr_coord.executor": "Run",
+    "Python.function_geocode_address.executor": "Run",
+    "Python.function_geocode_coord.executor": "Run",
+    "Python.lessons.executor": "Run",
+    "Python.my_proj.executor": "Run",
+    "Python.new_function_addr_coord.executor": "Run",
+    "Python.weather.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.pytest in test_geocode_addr_coord.py">
     <configuration name="compare_addr_coord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
@@ -121,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_geocode_addr.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in /home/alekseeva-j/PycharmProjects/test_geocode_addr.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,14 +166,14 @@
         <item itemvalue="Python.compare_addr_coord" />
         <item itemvalue="Python.function_geocode_address" />
         <item itemvalue="Python.function_geocode_coord" />
-        <item itemvalue="Python tests.Python tests in test_geocode_addr.py" />
+        <item itemvalue="Python tests.Python tests in /home/alekseeva-j/PycharmProjects/test_geocode_addr.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-8753aad8314d-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.25557.178" />
+        <option value="bundled-python-sdk-f69e5c277ee4-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.27397.106" />
       </set>
     </attachedChunks>
   </component>
@@ -298,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760002416329</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="checking results">
+      <option name="closed" value="true" />
+      <created>1760002877593</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1760002877593</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
