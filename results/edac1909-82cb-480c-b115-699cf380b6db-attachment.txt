@@ -1,2 +1,0 @@
-[32mINFO    [0m test_geocode_addr_coord:test_geocode_addr_coord.py:67 Обработка невалидного адреса: 
-[35mDEBUG   [0m test_geocode_addr_coord:test_geocode_addr_coord.py:70 Получен результат: {'error': 'No data found for given address'}

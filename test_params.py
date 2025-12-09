@@ -15,6 +15,7 @@ INVALID_ADDR = [
     pytest.param("addr", 'Россия, Санкт-Петербург, @#$%', id="invalid_addr_4"),
     pytest.param("addr", ' ', id="invalid_addr_5"),
     pytest.param("addr", '', id="invalid_addr_6"),
+    pytest.param("addr", None, id="invalid_addr_7"),
 ]
 # Координаты валидные
 VALID_COORD = [
@@ -28,10 +29,11 @@ INVALID_COORD = [
     pytest.param("coord", (600.0, 300.0), id="invalid_coord_2"),
     pytest.param("coord", (-100.0, 200.0), id="invalid_coord_3"),
     pytest.param("coord", (0.0007332, 0.3092082), id="invalid_coord_4"),
+    pytest.param("coord", (None, None), id="invalid_coord_5"),
 ]
 
-# Все валидные данные (адреса + координаты)
+# Все валидные адреса + координаты
 ALL_VALID = VALID_ADDR + VALID_COORD
 
-# Все невалидные данные (адреса + координаты)
+# Все невалидные адреса + координаты
 ALL_INVALID = INVALID_ADDR + INVALID_COORD

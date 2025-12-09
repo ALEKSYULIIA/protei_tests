@@ -1,2 +1,0 @@
-[32mINFO    [0m test_geocode_addr_coord:test_geocode_addr_coord.py:78 Обработка невалидных координат: -100.0, 200.0
-[35mDEBUG   [0m test_geocode_addr_coord:test_geocode_addr_coord.py:81 Получен результат: {'lat': None, 'lon': None, 'display_name': None}

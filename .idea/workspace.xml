@@ -5,11 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98a42042-d727-4606-a539-94ff742e2f8d" name="Changes" comment="checking results">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_function_addr_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/031c7d35-67e7-45c4-b1a6-46cadf9878aa-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/087af186-c882-4f0f-a58e-d3d7e50051e5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/09bc4bd6-4b9f-43e3-8109-bba2dd7b1b98-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0a463a32-4c83-44c2-9252-698be868fbe6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0b14831c-f5ac-4eef-86ed-a35a67f2f70b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0e679b27-bcfb-4ad9-8456-d0f2cdf15a5f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/122e4524-70e2-4581-88ba-62ce5f5b823c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1607325b-977c-4eb4-95f2-90cffe827756-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/16bf00f6-604a-4c93-a9b0-13659f8a15cd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1ad169b2-f6b6-4651-9eef-02ac32409eb5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1e1807e4-9d98-444b-b0b3-f87688364f27-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/2052a87d-4b7c-49e5-9de4-522bed348e30-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/25292acf-8f68-4391-9fd8-b17e59a74b02-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/29aae3ad-9208-4910-afbf-ff070b389d72-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/2a93ffee-040a-42e3-b6d3-b0bf44295c3b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/311af2b6-127c-4ffc-babd-1c22c1387808-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/33b79804-aea8-423c-86ed-19d56796f941-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/34d2c239-9d08-4ad2-abeb-0ea67b1ec1a9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4002d99e-a8d2-49a6-ab43-3b98cea5beae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/41de059c-4c84-4b71-91fc-820b4e518104-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/43220a15-580f-45a1-b75a-0c234c889f5b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/45066ede-53d5-4460-86eb-2447c5af45b4-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4e975fff-0c98-4d74-a0c7-6d824de500e5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/59613153-9223-4c4a-b4c7-d7c427f67d46-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/599142e2-942d-4fbf-a62c-e26f8e57072d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5cbe413f-f664-4d74-8d02-116436e35a13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5eadbb45-5ebf-4f3e-bbcf-7d3b47564552-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6b0dfdd2-c17e-42bc-9626-73b2d54c5a50-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6c515973-fa92-45fa-a271-2c952df37221-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6e357d04-e394-437d-8ffc-9e2d4b0a6d3e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/72307881-c339-4c1f-b04a-4fb0da08cf8c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/72a3fc2b-029b-4e60-9a66-91fa9a4e3142-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7b5bcf5e-4c68-4a0c-9188-017e88506008-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7d16acc5-5078-4a06-831c-a42c68ef551d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8342460f-3064-4fa3-b2b9-f3da5d5afad4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/83a11564-0706-47d7-b73f-b0d22599b79d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/86a7b9ca-e73d-494a-b012-3673d42c5b6c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/89fc12c7-2787-420d-bcad-c06587adc963-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8a9262cf-03aa-42ef-ae26-822efa92515d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/94e9c9a5-b406-42e5-911e-c48f4b81de97-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/98e4ed23-05e9-4ae3-ba82-df66b2ca9691-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/9a0e5d3e-9f11-4357-84bf-766e0ec9cecf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/9ddb9dc2-cf41-4c07-be40-21093e65e175-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/a1ef1f96-bb4b-4c3a-817d-68b84a6512c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/a3bd5c54-ef23-4f3e-bca0-b027dbef2186-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/a4f6ecdc-14b7-482d-a918-8298fe8f7d0f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/a635fdc2-3104-46a6-a46b-14b3901a6a28-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/b153d9a6-8d5b-4ca0-80c7-eec3354b1cf5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/b1d28734-d8da-426a-9794-ac5b38d35fcf-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/bd453f20-1e22-451b-981b-3c6f0aca67f8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/c02d1a4d-2611-4ca5-a2d3-3c35c532b122-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/c91e2b60-b4ab-446d-b54e-d46b4b11d058-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/c9e1b9a1-c5fe-4dd6-8239-def64991bce0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/ceb4fe2a-1944-4385-956d-3f91883ea77d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cf757ece-022d-4119-956c-af471162d768-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/d29013b3-1d60-4215-86e0-127da25e5073-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/d37f8d94-b816-45a0-9c79-980bf77af6ca-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/d6f1d766-7a1a-4e13-98b2-ed836da252c3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/e164dc1b-3fad-44c7-98af-991c40c1418f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/e1fae921-9ee6-4279-a0ee-535e94157a3e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/e5273441-fdf1-4ebc-b4bc-60ddcf47f627-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/e7f9a659-8c43-4be5-a21d-4b4a2207b50b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/edac1909-82cb-480c-b115-699cf380b6db-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/f1568ed6-64fe-49c0-98ec-e10cc3cb8afc-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/f617b030-ee20-42e8-a2fa-6f720a204422-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/f8b1d09e-a1a7-4b3f-b33a-5afcbfa0c4a0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/f926fc2b-664e-4602-989c-3096441bf389-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fb6bc888-377a-4267-9009-1f7f07e56d37-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fe388a82-ec0d-4d7f-be08-385333daa70a-attachment.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_geocode_addr_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_geocode_addr_coord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_params.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,33 +102,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_geocode_addr.test_get_location_info_addr.executor": "Run",
-    "Python tests.Python tests in test_geocode.py.executor": "Run",
-    "Python tests.Python tests in test_geocode_addr.py.executor": "Run",
-    "Python tests.Python tests in test_geocode_coord.py.executor": "Run",
-    "Python tests.pytest in /home/alekseeva-j/PycharmProjects/test_geocode_addr_coord.py.executor": "Run",
-    "Python tests.pytest in test_geocode_addr_coord.py.executor": "Run",
-    "Python.1.executor": "Run",
-    "Python.2222.executor": "Run",
-    "Python.API_Protei.executor": "Run",
-    "Python.API_learning.executor": "Run",
-    "Python.compare_addr_coord.executor": "Run",
-    "Python.function_geocode_address.executor": "Run",
-    "Python.function_geocode_coord.executor": "Run",
-    "Python.lessons.executor": "Run",
-    "Python.my_proj.executor": "Run",
-    "Python.new_function_addr_coord.executor": "Run",
-    "Python.weather.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_geocode_addr.test_get_location_info_addr.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_geocode.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_geocode_addr.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_geocode_coord.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in /home/alekseeva-j/PycharmProjects/test_geocode_addr_coord.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_geocode_addr_coord.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2222.executor&quot;: &quot;Run&quot;,
+    &quot;Python.API_Protei.executor&quot;: &quot;Run&quot;,
+    &quot;Python.API_learning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.compare_addr_coord.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function_geocode_address.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function_geocode_coord.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lessons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_proj.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new_function_addr_coord.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.pytest in test_geocode_addr_coord.py">
     <configuration name="compare_addr_coord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
